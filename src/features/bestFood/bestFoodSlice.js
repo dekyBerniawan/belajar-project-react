@@ -7,7 +7,7 @@ export const getBestFoods = createAsyncThunk(
     const res = await axios.get(
       'https://free-food-menus-api-two.vercel.app/best-foods'
     );
-    console.log(res);
+    // console.log(res);
     return res.data;
   }
 );

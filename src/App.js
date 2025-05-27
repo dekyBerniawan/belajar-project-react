@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Container className="py-5">
       <h2 className="mb-4">🍽️ Food Menu</h2>
-      <Tabs tab={tab} setTab={setTab} />
+      <Tabs tabes={tab} setTabes={setTab} />
       {tab === 0 && <BestFood />}
       {tab === 1 && <Burger />}
     </Container>

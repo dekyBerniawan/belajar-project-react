@@ -6,7 +6,7 @@ export const renderStars = (rating) => {
   const stars = [];
 
   for (let i = 0; i < fullStars; i++) stars.push('★');
-  if (halfStar) stars.push('☆'); // Bisa ganti ke '⯨' jika mau setengah
+  if (halfStar) stars.push('⯨'); // Bisa ganti ke '⯨' jika mau setengah
   for (let i = 0; i < emptyStars; i++) stars.push('✩');
   return stars.join('');
 };

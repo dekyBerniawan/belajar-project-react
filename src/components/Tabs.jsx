@@ -1,17 +1,17 @@
 import { Button, ButtonGroup } from 'reactstrap';
 
-const Tabs = ({ tab, setTab }) => {
+const Tabs = ({ tabes, setTabes }) => {
   return (
     <ButtonGroup className="mb-4">
       <Button
-        color={tab === 0 ? 'primary' : 'outline-primary'}
-        onClick={() => setTab(0)}
+        color={tabes === 0 ? 'primary' : 'outline-primary'}
+        onClick={() => setTabes(0)}
       >
         Best Foods
       </Button>
       <Button
-        color={tab === 1 ? 'primary' : 'outline-primary'}
-        onClick={() => setTab(1)}
+        color={tabes === 1 ? 'primary' : 'outline-primary'}
+        onClick={() => setTabes(1)}
       >
         Burgers
       </Button>
